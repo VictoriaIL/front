@@ -1,0 +1,48 @@
+.app__searcher-main-container {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 93.33%;
+  margin: 209px 330px 826px 330px;
+}
+.app__searcher-input,
+.app__searcher-input:focus,
+.app__searcher-input:active {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 93.33%;
+  width: 1064px;
+  background: #E0E1E9;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  outline: none;
+  height: 38px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 40px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+.app__searcher-icon {
+  position: absolute;
+  left: 1.35%;
+  right: 91.06%;
+  top: 1.93%;
+  bottom: 95.11%;
+  padding-top: 10px;
+}
+::-webkit-input-placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+/*# sourceMappingURL=searcher.component.css.map */

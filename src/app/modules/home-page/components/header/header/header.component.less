@@ -1,0 +1,35 @@
+//Main variables
+@headerColor:#08105A;
+@headerWidth:1920px;
+@headerHeight:80px;
+
+//BSU TEXT
+@mainHeaderFontFamily:Comfortaa;
+
+.main-header {
+  position: absolute;
+  width: @headerWidth;
+  height: @headerHeight;
+  left: 0px;
+  top: -2px;
+  opacity: 1;
+  background: #08105A;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+
+  &-text-bsu {
+    position: absolute;
+    width: 252px;
+    height: 39px;
+    left: 123px;
+    top: 12px;
+
+    font-family: @mainHeaderFontFamily;
+    font-style: normal;
+    font-weight: 300;
+    font-size:15px;
+    line-height: 21px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+  }
+}

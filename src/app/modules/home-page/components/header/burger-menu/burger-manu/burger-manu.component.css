@@ -1,0 +1,116 @@
+.burger__navlink .burger__icon span:after {
+  display: inline-block;
+  width: 2px;
+  height: 15px;
+  background-color: black;
+  transform: rotate(250deg);
+  margin-left: 10px ;
+  margin-top: 15px;
+}
+.burger__navlink .burger__icon span {
+  display: inline-block;
+  width: 2px;
+  height: 15px;
+  background-color: black;
+  transform: rotate(300deg);
+  margin-left: 5px ;
+}
+.burger__navlink .burger__icon span:before,
+.burger__navlink .burger__icon span:after {
+  content: "";
+  display: block;
+  transition: 0.5s;
+}
+.burger__menu-block {
+  display: inline-block;
+  margin-left: 29px;
+  margin-top: 24px;
+}
+.burger__menu-nav:before {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  margin-left: 16px;
+  margin-top: -15px;
+  border-bottom: 10px solid #FFFFFF;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+}
+.burger__menu-nav {
+  transition: 0.5s;
+  transform-origin: top center;
+  transform: scaleY(0) translateY(20%);
+  opacity: 0;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 207px;
+  height: 145px;
+  padding-top: 7px;
+  padding-bottom: 10px;
+}
+.burger__menu-nav-active {
+  opacity: 1;
+  transform: scaleY(1) translateY(0%);
+}
+.burger__navlink {
+  display: block;
+  text-decoration: none;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.07em;
+  color: #08105A;
+  margin-left: 13px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.burger__menu-btn {
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.burger__menu-btn span,
+.burger__menu-btn span::before,
+.burger__menu-btn span::after {
+  position: absolute;
+  top: 50%;
+  margin-top: -1.5px;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 3px;
+  background-color: #FFFFFF;
+}
+.burger__menu-btn span::before,
+.burger__menu-btn span::after {
+  content: "";
+  display: block;
+  transition: 0.5s;
+}
+.burger__menu-btn span::before {
+  transform: translateY(-15px);
+}
+.burger__menu-btn span::after {
+  transform: translateY(15px);
+}
+.burger__menu-btn-active span {
+  height: 0;
+}
+.burger__menu-btn-active span:before {
+  transform: rotate(45deg);
+}
+.burger__menu-btn-active span:after {
+  transform: rotate(-45deg);
+}
+.line {
+  border: 2px solid #EEEEEE;
+  padding: 0;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=burger-manu.component.css.map */

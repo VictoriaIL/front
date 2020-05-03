@@ -1,0 +1,62 @@
+.table-topics__filter {
+  width: 100%;
+}
+.table-topics__main-container {
+  position: absolute;
+  width: 1150px;
+  height: 431px;
+  left: 15.79%;
+  right: 0%;
+  top: 26.48%;
+  bottom: 0%;
+  margin-bottom: 196px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.table-topics__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-topics__header_test {
+  margin-top: 48px;
+  margin-right: 150px;
+  margin-left: 152px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+.table-topics__header_data {
+  margin-top: 48px;
+  margin-right: 85px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+.table-topics__header_subject {
+  margin-top: 48px;
+  margin-right: 185px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  color: #000000;
+}
+table {
+  width: 100%;
+
+}
+/*# sourceMappingURL=table-of-tests.component.css.map */
